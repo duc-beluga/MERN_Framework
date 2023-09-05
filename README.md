@@ -1,4 +1,4 @@
-# This is the template for MERN stack
+# This is the template for MERN stack (Inspired by HACKATHON)
 
 ---
 
