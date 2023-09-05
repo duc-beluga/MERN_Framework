@@ -1,0 +1,21 @@
+{
+  "name": "fb_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "concurrently yarn:postinstall:*",
+    "postinstall:backend": "cd backend && yarn install",
+    "postinstall:frontend": "cd frontend && yarn install",
+    "start": "concurrently yarn:start:*",
+    "start:frontend": "cd frontend && yarn start",
+    "start:backend": "cd backend && yarn dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
