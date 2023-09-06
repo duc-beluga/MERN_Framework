@@ -10,6 +10,12 @@
 
 ---
 
-## SETUP
+# SETUP
+
+## YARN
 
 yarn install && yarn start
+
+## Docker
+
+docker-compose up --build
