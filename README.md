@@ -1,23 +1,24 @@
-# This is the template for MERN stack (Inspired by HACKATHON)
+# Template for MERN stack (Inspired by MLH)
 
----
+## Technologies
 
-# DAISYUI and TAILWINDCSS: CSS
+- **Frontend**
+  - **Languages:** JavaScript
+  - **Frameworks:** React.js (Vite)
+  - **UI Components:** NextUI, TailwindCSS
+  - **Icons:** Lucide Icons
+  - **Data Fetching:** useQuery, Axios
+  - **Form Validation:** react-hook-form, Zod
+  - **Notifications/Toasts:** react-hot-toast
+- **Backend:**
+  - **Languages:** Node.js
+  - **Frameworks:** Express
+  - **Authentication:** JWT, OAuth2
+- **Database:** MongoDB
+- **Hosting:** Heroku
+- **Design:** Whimsical
 
----
-
-# FIREBASE: authentication
-
----
-
-# SETUP
-
-## YARN
+## Get Started
 
 yarn install && yarn start
 
-## Docker
-
-docker-compose up --build
-
-Remove .gitkeep
